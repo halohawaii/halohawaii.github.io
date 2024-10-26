@@ -1,6 +1,6 @@
 # Louis Jin
 
-### Game Designer&nbsp;&nbsp; | &nbsp;&nbsp;Game Programmer| Technical Artist&nbsp;&nbsp;
+### Game Designer&nbsp;&nbsp; | &nbsp;&nbsp;Game Programmer&nbsp;&nbsp; |  &nbsp;&nbsp;Technical Artist&nbsp;&nbsp;
 
 ---
 
