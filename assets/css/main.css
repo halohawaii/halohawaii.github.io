@@ -259,9 +259,10 @@ button
          -o-transition: opacity 1s ease;
             transition: opacity 1s ease;
 
-    background: url(../img/background.jpg);
+    background: url("../img/封面.png");
     background-repeat: no-repeat;
     background-size: cover;
+	background-position: center bottom;
 }
 
 
@@ -320,7 +321,8 @@ button
 #intro .container-mid
 {
     position: absolute;
-    top: 50%;
+    top: 70%;
+	left: 70%;
 
     width: 100%;
 
@@ -352,6 +354,7 @@ button
     letter-spacing: .04em;
 
     border-radius: 100px;
+	margin-top: 200px;
 }
 
 #intro .container-mid a .circle
