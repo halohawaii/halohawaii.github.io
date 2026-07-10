@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
         event.preventDefault();
 
         $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top - 80
+            scrollTop: $( $.attr(this, 'href') ).offset().top - 24
         }, 500);
         
     });
@@ -44,15 +44,16 @@ jQuery(document).ready(function($) {
     
     // SCROLL REVEAL SETUP
     window.sr = ScrollReveal();
-    sr.reveal(".scroll-animated", { 
-        duration: 600,
+    sr.reveal(".scroll-animated", {
+        duration: 280,
         delay: 0,
-        origin: "left",
+        origin: "bottom",
         rotate: { x: 0, y: 0, z: 0 },
         opacity: 0,
-        distance: "20vh",
-        viewFactor: 0.4,
+        distance: "1rem",
+        viewFactor: 0.05,
         scale: 1,
+        mobile: true
     });
     
     
